@@ -1,0 +1,187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 200px 0px;
+}
+.logo{}
+.logo img {
+	width: 200px;  
+}
+
+.menu{}
+
+.menu nav{
+	list-style: none;
+}
+
+.menu ul{
+	
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner-main {
+    padding-top: 50px;
+}
+
+.banner-main h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 3px;
+    background-color: #6633995c;
+    width: 92%;
+    text-align: center;
+}
+
+.banner-main p {
+    color: white;
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+
+.banner-main span {
+    border: 1px solid white;
+    width: 12%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background: transparent;
+    display: block;
+    width: 37%;
+    border: 1px solid white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 0px;
+    color: white;
+}
+
+
+	/*welcome*/
+.welcome {
+    background-color: #0000001c;
+    padding-top: 100px;
+    
+}
+
+.welcome-text h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.welcome-text span{
+	border: 1px solid black;
+    width: 12%;
+    display: block;
+}
+
+.welcome-text p{
+	color: black;
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+
+.welcome-image {
+    margin-bottom: -50px;
+}
+
+.image-fluid {
+    width: 100%;
+}
+
+/* Title*/
+
+.title {
+    background-color: #28292E;
+    padding-top: 100px;
+    padding-bottom: 50px;
+   }
+
+.title-text h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: white;
+}
+
+.title-text span{
+	border: 1px solid white;
+    width: 12%;
+    display: block;
+}
+
+.title-text p{
+	color: white;
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+
+.title-image{}
+
+.image-fluid {
+    width: 100%;
+}
+
+.read {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+
+/*end*/
+footer {
+    background-color: #F33E2D;
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+}
+
+
+	/*mobiel device*/
+
+@media(max-width:500px){
+	.banner-main h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 3px;
+    background-color: #6633995c;
+    width: 92%;
+    text-align: center;
+}
+
+.welcome-text h2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.title-text h2 {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+}
